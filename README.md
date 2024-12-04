@@ -12,7 +12,9 @@ cd ssi-predict
 
 ### 2. Install Dependencies
 Ensure you have Python 3.7+ installed. Install the required packages:
+```
 pip install -r requirements.txt
+```
 
 ### 3. Configure the Pipeline
 Edit the config.json file to specify:
