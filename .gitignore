@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.h5
+results/
+model/
+*.pkl
+*.csv
+*.log
+.DS_Store
+.idea/

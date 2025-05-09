@@ -1,0 +1,12 @@
+{
+    "dataset_path": "data/fake_dataset.csv",
+    "target_column": "infection",
+    "exclude_columns": [],
+    "test_size": 0.2,
+    "random_state": 42,
+    "normalize": true,
+    "results_path": "results",
+    "artifacts_path": "artifacts",
+    "threshold": 0.5,
+    "num_cv_splits": 5
+}

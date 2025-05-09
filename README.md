@@ -6,7 +6,7 @@ This repository provides a comprehensive pipeline for predicting surgical site i
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/etiennechlt/ssi-predict.git
+git clone https://github.com/etiennechlt/ssi-detect.git
 cd ssi-predict
 ```
 
@@ -27,5 +27,5 @@ python src/training_pipeline.py
 ```
 
 ### 5. Explore Results
-- Metrics: Check the results/metrics.csv.
-- Saved Models: Stored in the models/ folder for reuse.
+- Metrics: Check the results/performance_results.csv.
+- Saved Models: Stored in the artifacts/ folder for reuse.
