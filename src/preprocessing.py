@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 
 def load_dataset(file_path, exclude_columns=None, target_column="infection"):
-    data = pd.read_csv(file_path, sep=";")
+    data = pd.read_csv(file_path, sep=",")
 
     if exclude_columns:
         data = data.drop(columns=exclude_columns)

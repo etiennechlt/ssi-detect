@@ -50,7 +50,7 @@ def save_combined_predictions(predictions, output_path):
     """
     os.makedirs(output_path, exist_ok=True)
     combined_df = pd.concat(predictions.values(), axis=1)
-    combined_df.to_csv(os.path.join(output_path, "combined_predictions.csv"), index=False, sep=";")
+    combined_df.to_csv(os.path.join(output_path, "combined_predictions.csv"), index=False, sep=",")
 
 
 def save_combined_metrics(metrics, output_path):
@@ -63,4 +63,4 @@ def save_combined_metrics(metrics, output_path):
     """
     os.makedirs(output_path, exist_ok=True)
     metrics_df = pd.DataFrame.from_dict(metrics, orient="index")
-    metrics_df.to_csv(os.path.join(output_path, "combined_metrics.csv"), sep=";")
+    metrics_df.to_csv(os.path.join(output_path, "combined_metrics.csv"), sep=",")

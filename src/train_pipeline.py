@@ -94,9 +94,9 @@ def main(config_path):
     print(dnn_metrics)
 
     # Save combined predictions and metrics
-    cv_results.to_csv(os.path.join(results_path, "cross_validation_results.csv"), sep=";")
-    combined_predictions.to_csv(os.path.join(results_path, "prediction_results.csv"), sep=";")
-    combined_metrics.to_csv(os.path.join(results_path, "performance_results.csv"), sep=";")
+    cv_results.to_csv(os.path.join(results_path, "cross_validation_results.csv"), sep=",")
+    combined_predictions.to_csv(os.path.join(results_path, "prediction_results.csv"), sep=",")
+    combined_metrics.to_csv(os.path.join(results_path, "performance_results.csv"), sep=",")
 
 
 if __name__ == "__main__":
